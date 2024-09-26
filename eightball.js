@@ -5,9 +5,9 @@ const eightball = () => {
     const question  = prompt('pregunta:')
     const random = Math.floor(Math.random() * 8);
     const options = [
-        'Tigera',
-        'Roca',
-        'Papel',
+        'Si',
+        'No',
+        'Pregunatale a alguien mas',
         'no se',
         'probablemente',
         'un 20 porciento que si',
